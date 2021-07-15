@@ -8,7 +8,7 @@ const path = require('path');
 module.exports = {
 	entry: path.resolve(__dirname, 'src/scripts/index.js'),
 	output: {
-		path: path.resolve(__dirname, 'build'),
+		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.js',
 	},
 	module: {
@@ -52,7 +52,7 @@ module.exports = {
 			patterns: [
 				{
 					from: path.resolve(__dirname, 'src/public/'),
-					to: path.resolve(__dirname, 'public/'),
+					to: path.resolve(__dirname, 'dist/'),
 				},
 			],
 		}),
