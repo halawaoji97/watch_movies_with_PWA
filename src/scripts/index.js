@@ -1,7 +1,7 @@
+import 'regenerator-runtime/runtime';
 import App from './views/app';
 import smoothScroll from './utils/window-scrool';
 import 'core-js/stable';
-import 'regenerator-runtime/runtime';
 import '../styles/index.css';
 import '../styles/responsive.css';
 import './components/app-bar';
