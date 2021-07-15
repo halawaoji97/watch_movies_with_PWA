@@ -1,0 +1,63 @@
+app-bar{
+    height: 90px;
+    background-color: #202437;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    position: relative;
+    z-index: 999;
+    box-shadow: 0px 2px 0px -1px rgba(244,242,245,0.72);
+    -webkit-box-shadow: 0px 2px 0px -1px rgba(244,242,245,0.72);
+    -moz-box-shadow: 0px 2px 0px -1px rgba(244,242,245,0.72);
+}
+.brand a img{
+    height: 44px;
+    user-select: none;
+}
+
+
+.menu-button button{
+    background-color: transparent;
+    border: 1px solid #202437;
+}
+
+
+.navigation{
+    transform: translateX(-100%);
+    width: 100%;
+    left: 0;
+    top: 90px;
+    position: absolute;
+    transition: transform .5s ease-in;
+}
+
+.navigation.open{
+    transform: translateX(0);
+}
+
+.navigation .nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 268px;
+    background-color: #262C40;
+  }
+  
+  .navigation .nav-list li a {
+    padding: 12px 0;
+    color: #F4F2F5;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    transition: all .3s ease-in;
+  }
+  
+  .navigation .nav-list li a:hover {
+    color: #FFDD00;
+  }
+  .navigation .nav-list li a.active {
+    color: #FFDD00;
+  }

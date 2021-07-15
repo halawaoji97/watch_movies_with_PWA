@@ -1,0 +1,14 @@
+
+.container-search {
+    padding: 20px 16px;
+}
+.search-movie-list{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px 20px;
+}
+.not-found{
+    color: #F4F2F5;
+    font-size: 24px;
+}

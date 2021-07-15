@@ -1,0 +1,64 @@
+hero-app{
+    background-image: url('./images/hero.jpg');
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    
+}
+.content-hero{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+hero-app h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #F4F2F5;
+}
+
+hero-app p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #F4F2F5;
+    line-height: 170%;
+}
+
+.search-app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.search-app input{
+    background-color: #F4F2F5;
+    border-radius: 8px;
+    border: none;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #262C40;
+    width: 100%;
+    padding: 0 16px;
+    outline: none;
+}
+
+.search-app button{
+    background-color: #FFDD00;
+    border-radius: 8px;
+    border: 1px solid #262C40;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #262C40;
+    width: 100px;
+    margin-left: 10px;
+}
+.search-app button:focus, .search-app input:focus{
+    border: 1px solid #F4F2F5;
+}

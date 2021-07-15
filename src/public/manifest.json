@@ -1,0 +1,54 @@
+{
+    "name": "Watch Movies", 
+    "short_name": "Watch Movies",
+    "icons": [
+      {
+        "src": "/icons/logo-48.png",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/logo-72.png",
+        "type": "image/png",
+        "sizes": "72x72",
+        "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/logo-96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+      {
+        "src": "/icons/logo-144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/logo-196.png",
+        "type": "image/png",
+        "sizes": "196x196",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/logo-384.png",
+        "type": "image/png",
+        "sizes": "384x384",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/logo-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#202437",
+    "background_color": "#202437",
+    "description": "Watch movies app with PWA by Halawa Oji, watch movies for free"
+  }
+  

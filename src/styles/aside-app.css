@@ -1,0 +1,47 @@
+aside-app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #262C40;
+    border-radius: 12px;
+    width: 80%;
+    margin: 80px auto;
+    padding: 30px 32px;
+}
+
+aside-app h2{
+    font-size: 28px;
+    color: #F4F2F5;
+    font-weight: 500;
+}
+aside-app p{
+    margin: 10px 0;
+    color: #F4F2F5;
+    font-size: 16px;
+}
+span.watch{
+    font-weight: 700;
+    color: #FFDD00;
+}
+span.movies{
+    font-weight: 700;
+    color: #9C28A7;
+}
+.app-store{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    align-items: center;
+}
+.app-store img{
+    border-radius: 12px;
+}
+.image-android{
+    margin-top: 40px;
+}
+.image-android img{
+    display: block;
+    height: 500px;
+}

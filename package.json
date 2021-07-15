@@ -1,0 +1,41 @@
+{
+  "name": "watch-movies",
+  "version": "1.0.0",
+  "description": "\"Watch Movies App wit PWA\"",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "\"Watch",
+    "Movies\""
+  ],
+  "author": "\"Halawa Oji\"",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^6.0.2",
+    "css-loader": "^5.2.6",
+    "dotenv": "^10.0.0",
+    "dotenv-webpack": "^7.0.3",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3",
+    "workbox-webpack-plugin": "^6.1.5"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7",
+    "serviceworker-webpack-plugin": "^1.0.1",
+    "swiper": "^6.7.5"
+  }
+}

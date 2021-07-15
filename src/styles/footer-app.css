@@ -1,0 +1,44 @@
+
+footer-app{
+    min-height: 300px;
+    padding: 30px 16px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #262C40;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px 20px;
+}
+.brand-tagline, .copyright{
+    font-size: 16px;
+    color: #696D74;
+}
+
+.brand-tagline a{
+    font-size: 16px;
+    color: #2bbbd1;
+    font-weight: 500;
+}
+footer-app h6{
+    font-size: 20px;
+    color: #F4F2F5;
+    font-weight: 300;
+}
+footer-app ul{
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 100px;
+}
+footer-app ul li a, .copyright a{
+    font-size: 16px;
+    color: #696D74;
+    text-decoration: none;
+}
+.contact ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100px;
+}
