@@ -8,6 +8,9 @@ footer-app{
     grid-template-columns: 1.5fr 1fr;
     gap: 30px 20px;
 }
+.brand-tagline{
+    margin-top: 5px;
+}
 .brand-tagline, .copyright{
     font-size: 16px;
     color: #696D74;
