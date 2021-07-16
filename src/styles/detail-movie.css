@@ -1,5 +1,5 @@
 .container-detail{
-    padding: 40px 16px;
+    padding: 50px 16px;
     margin: auto;
     position: relative;
 }
@@ -84,27 +84,36 @@ svg{
     height: 100px;
     margin-top: 50px;
 }
-
-.play, .like{
-    font-weight: 300;
-    font-size: 16px;
+.playButtonContainer, .likeButtonContainer{
     width: 100%;
     height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play, .like{
+    font-weight: 300;
+    width: 100%;
+    font-size: 16px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
     outline: none;
     border: none;
-    transition: all .5s ease-in;
+    transition: all .6s ease-in;
 }
-.play:focus, .like:focus{
+.footer-card-detail button:focus{
     border: 1px solid #F4F2F5;
 }
 .play{
     background-color: #FFDD00;
+    border: 1px solid #202437;
+    color: #202437;
 }
 .like{
     background-color: #202437;
     color: #F4F2F5;
+    border: 1px solid #F4F2F5;
 }

@@ -4,6 +4,8 @@ import UrlParser from '../../routes/url-parser';
 import '../../components/detail-movie-item';
 import '../../components/movie-list';
 import '../../components/video-list';
+// import { createLikeButtonTemplate } from '../templates/template-creator';
+import LikeButtonInitiator from '../../utils/like-button-initiator';
 
 const Detail = {
 	async render() {
@@ -26,6 +28,7 @@ const Detail = {
 		const detailMovies = await TheMovieDbSource.detailMovie(url.id);
 		const movieContainer = document.querySelector('detail-movie-item');
 		movieContainer.detailMovies = detailMovies;
+		console.log(detailMovies);
 
 		const similarMovies = await TheMovieDbSource.similarMovies(url.id);
 		const similarMoviesList = document.querySelector('.similar-movie-list');
@@ -49,6 +52,17 @@ const Detail = {
 		main.addEventListener('click', (e) => {
 			e.stopPropagation();
 			videoContainer.classList.remove('openVideo');
+		});
+
+		LikeButtonInitiator.init({
+			likeButtonContainer: document.querySelector('#likeButtonContainer'),
+			movie: {
+				id: detailMovies.id,
+				title: detailMovies.title,
+				overview: detailMovies.overview,
+				backdrop_path: detailMovies.backdrop_path,
+				vote_average: detailMovies.vote_average,
+			},
 		});
 
 		const swiper = new Swiper('.swiper-container', {
