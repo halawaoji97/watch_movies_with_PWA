@@ -8,14 +8,14 @@ const UpComing = {
 		return `
 		<section class="up-coming-movies">
 		<pre-loader></pre-loader>
-			<h2>Up Coming</h2>
+			<h2>Up coming</h2>
 			<div class="swiper-container">
 			<movie-list class="up-coming-movie-list swiper-wrapper">
 			</movie-list>
 			</div>
 		</section>
         <section class="now-playing-movies">
-			<h2>Now Playing</h2>
+			<h2>Now playing</h2>
 			<div class="swiper-container">
 			<movie-list class="now-playing-movie-list swiper-wrapper">
 			</movie-list>

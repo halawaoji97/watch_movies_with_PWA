@@ -1,8 +1,10 @@
 
-.container-search {
+.container-search, 
+.container-favorite-movies {
     padding: 20px 16px;
 }
-.search-movie-list{
+.search-movie-list,
+.favorite-movie-list{
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;

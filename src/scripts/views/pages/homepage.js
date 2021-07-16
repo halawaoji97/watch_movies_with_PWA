@@ -17,14 +17,14 @@ const Homepage = {
 			</div>
 		</section>
 		<section class="now-playing-movies">
-			<h2>Now Playing</h2>
+			<h2>Now playing</h2>
 			<div class="swiper-container">
 			<movie-list class="now-playing-movie-list swiper-wrapper">
 			</movie-list>
 			</div>
 		</section>
 		<section class="top-rated-movies">
-			<h2>Top Rated</h2>
+			<h2>Top rated</h2>
 			<div class="swiper-container">
 			<movie-list class="top-rated-movie-list swiper-wrapper">
 			</movie-list>

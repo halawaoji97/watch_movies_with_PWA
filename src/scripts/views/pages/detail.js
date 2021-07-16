@@ -15,7 +15,7 @@ const Detail = {
 		<video-list class="video-list"></video-list>
 	  </section>
 	  <section class="similar-movies">
-	  	<h2>Similar Movies</h2>
+	  	<h2>Similar movies</h2>
 			<div class="swiper-container">
 				<movie-list class="similar-movie-list swiper-wrapper"></movie-list>
 			</div>
@@ -59,9 +59,9 @@ const Detail = {
 			movie: {
 				id: detailMovies.id,
 				title: detailMovies.title,
-				overview: detailMovies.overview,
-				backdrop_path: detailMovies.backdrop_path,
+				poster_path: detailMovies.poster_path,
 				vote_average: detailMovies.vote_average,
+				release_date: detailMovies.release_date,
 			},
 		});
 

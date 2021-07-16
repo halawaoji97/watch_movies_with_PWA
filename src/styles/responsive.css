@@ -3,6 +3,9 @@
 /* card 262C40 */
 /* yellow FFDD00 */
 @media screen and (max-width: 400px) {
+	h2{
+		font-size: 26px;
+	}
 	.container-detail {
 		padding: 30px 12px;
 	}
@@ -16,6 +19,10 @@
 	footer-app {
 		grid-template-rows: 1fr 1fr 1fr 0.5fr;
 		grid-template-columns: 100%;
+		gap: 10px 10px;
+	}
+	footer-app .brand{
+		padding-top: 10px;
 	}
 }
 
@@ -60,6 +67,7 @@
 	.similar-movies,
 	.container-search,
 	.up-coming-movies,
+	.container-favorite-movies,
 	about-app {
 		padding: 40px 64px;
 	}
@@ -91,7 +99,8 @@
 		object-fit: cover;
 	}
 
-	.search-movie-list {
+	.search-movie-list,
+	.favorite-movie-list {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
@@ -99,7 +108,8 @@
 		overflow: hidden;
 	}
 
-	.search-movie-list img {
+	.search-movie-list img,
+	.favorite-movie-list img {
 		max-width: 100%;
 		display: block;
 		overflow: hidden;
@@ -153,7 +163,8 @@
 }
 
 @media screen and (min-width: 1000px) {
-	.search-movie-list {
+	.search-movie-list,
+	.favorite-movie-list {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
@@ -200,9 +211,6 @@
 		font-size: 42px;
 	}
 
-	h1 {
-		font-size: 32px;
-	}
 
 	.movie-title {
 		font-size: 32px;

@@ -16,9 +16,9 @@ class HeroApp extends HTMLElement {
 		this.innerHTML = `
         <div class="content-hero">
             <h1>Watch online for free.</h1>
-            <p>Take your time to watch your favorite videos 
+            <p>Take your time to watch any movies 
             <br>
-            and enjoy with your family</p>
+            and enjoy it with your family</p>
             <div class="search-app">
                 <input type="search" name="search" id="search-movies-input" placeholder="Search">
                 <button id="btn-search">Search</button>
