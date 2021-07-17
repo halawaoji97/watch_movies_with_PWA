@@ -52,6 +52,7 @@
 	hero-app {
 		padding: 0 64px;
 		height: 500px;
+		background-image: url('./images/hero-medium.jpg');
 	}
 
 	hero-app h1 {
@@ -161,7 +162,12 @@
 		width: 80%;
 	}
 }
-
+@media screen and (min-width: 1000px){
+	hero-app {
+		height: 600px;
+		background-image: url('./images/hero-large.jpg');
+	}
+}
 @media screen and (min-width: 1000px) {
 	.search-movie-list,
 	.favorite-movie-list {
@@ -203,9 +209,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-	hero-app {
-		height: 600px;
-	}
 
 	hero-app h1 {
 		font-size: 42px;

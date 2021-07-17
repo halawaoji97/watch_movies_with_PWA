@@ -1,5 +1,5 @@
 hero-app{
-    background-image: url('./images/hero.jpg');
+    background-image: url('./images/hero-small.jpg');
     height: 400px;
     background-position: center center;
     background-size: cover;
@@ -54,7 +54,6 @@ hero-app p {
     border: 1px solid #262C40;
     height: 44px;
     font-size: 16px;
-    font-weight: 500;
     color: #262C40;
     width: 100px;
     margin-left: 10px;

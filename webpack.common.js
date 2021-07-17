@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { InjectManifest } = require('workbox-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
+const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
+const ImageminMozjpeg = require('imagemin-mozjpeg');
 const path = require('path');
 
 module.exports = {
@@ -53,6 +55,9 @@ module.exports = {
 				{
 					from: path.resolve(__dirname, 'src/public/'),
 					to: path.resolve(__dirname, 'dist/'),
+					globOptions: {
+						ignore: ['**/images/**'], // CopyWebpackPlugin mengabaikan berkas yang berada di dalam folder images
+					},
 				},
 			],
 		}),
@@ -67,6 +72,14 @@ module.exports = {
 			systemvars: true, // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.
 			silent: true, // hide any errors
 			defaults: false, // load '.env.defaults' as the default values if empty.
+		}),
+		new ImageminWebpackPlugin({
+			plugins: [
+				ImageminMozjpeg({
+					quality: 50,
+					progressive: true,
+				}),
+			],
 		}),
 	],
 };
