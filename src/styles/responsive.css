@@ -161,11 +161,17 @@
 		margin: auto;
 		width: 80%;
 	}
+	.image-android img{
+		height: 450px;
+	}
 }
 @media screen and (min-width: 1000px){
 	hero-app {
 		height: 600px;
 		background-image: url('./images/hero-large.jpg');
+	}
+	.image-android img{
+		height: 500px;
 	}
 }
 @media screen and (min-width: 1000px) {
