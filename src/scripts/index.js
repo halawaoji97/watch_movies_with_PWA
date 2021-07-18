@@ -8,6 +8,8 @@ import './components/app-bar';
 import './components/aside-app';
 import './components/footer-app';
 import 'swiper/swiper-bundle.css';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 const app = new App({
 	button: document.querySelector('#hamburgerButton'),

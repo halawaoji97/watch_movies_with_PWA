@@ -22,7 +22,8 @@ class AsideApp extends HTMLElement {
         </div>
         <div class="image-android">
             <picture>
-                <source media="(max-width:900px)" srcset="./images/frame_handphone-medium.jpg">
+            <source media="(max-width:900px)" srcset="./images/frame_handphone-medium.webp"  type="image/webp">
+                <source media="(max-width:900px)" srcset="./images/frame_handphone-medium.jpg" type="image/jpg">
                 <img src="./images/frame_handphone.jpg" alt="frame_handphone">
             </picture>
         </div>

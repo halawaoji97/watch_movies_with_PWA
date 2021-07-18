@@ -10,9 +10,9 @@ class MovieItem extends HTMLElement {
 		this.innerHTML = `
         <a class="card" href=${`/#/detail/${this._movie.id}`}>
         <div class="body-card">
-                <img src=${CONFIG.BASE_IMAGE_URL + this._movie.poster_path} alt=${
-			this._movie.title
-		}>
+                <img class="lazyload" src="./images/placeholder.webp" data-src=${
+									CONFIG.BASE_IMAGE_URL + this._movie.poster_path
+								} alt=${this._movie.title}>
         </div>
         <div class="footer-card">
         <h3 class="name-movie">

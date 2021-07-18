@@ -2,6 +2,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { InjectManifest } = require('workbox-webpack-plugin');
+const ImageminWebpWebpackPlugin = require('imagemin-webp-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
 const ImageminMozjpeg = require('imagemin-mozjpeg');
@@ -77,6 +78,17 @@ module.exports = {
 					progressive: true,
 				}),
 			],
+		}),
+		new ImageminWebpWebpackPlugin({
+			config: [
+				{
+					test: /\.(jpe?g|png)/,
+					options: {
+						quality: 50,
+					},
+				},
+			],
+			overrideExtension: true,
 		}),
 	],
 };
