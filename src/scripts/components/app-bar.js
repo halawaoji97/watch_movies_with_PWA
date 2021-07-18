@@ -7,7 +7,7 @@ class AppBar extends HTMLElement {
 		this.innerHTML = `
         <div class="brand">
         <a class="logo" href="/">
-          <img src="./icons/logo-watch-movies.png" alt="Watch Movie" >
+          <img src="./icons/logo-watch-movies.png" alt="Watch Movie" height="44px";>
         </a>
       </div>
       <div class="menu-button">

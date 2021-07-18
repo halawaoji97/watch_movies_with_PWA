@@ -75,7 +75,6 @@ const Homepage = {
 		};
 
 		searchElement.clickEvent = onButtonSearchClicked;
-		console.log(process.env.API_KEY);
 		// SWIPER
 		const swiper = new Swiper('.swiper-container', {
 			// Optional parameters

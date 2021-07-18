@@ -28,7 +28,6 @@ const Detail = {
 		const detailMovies = await TheMovieDbSource.detailMovie(url.id);
 		const movieContainer = document.querySelector('detail-movie-item');
 		movieContainer.detailMovies = detailMovies;
-		console.log(detailMovies);
 
 		const similarMovies = await TheMovieDbSource.similarMovies(url.id);
 		const similarMoviesList = document.querySelector('.similar-movie-list');

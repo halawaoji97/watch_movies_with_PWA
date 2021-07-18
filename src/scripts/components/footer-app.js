@@ -7,7 +7,7 @@ class FooterApp extends HTMLElement {
 		this.innerHTML = `
         <div class="brand">
             <a class="logo" href="/">
-            <img src="./icons/logo-watch-movies.png" alt="Watch Movie" >
+            <img src="./icons/logo-watch-movies.png" alt="Watch Movie" height="44px";>
             </a>
             <p class="brand-tagline">
                 Displaying movies of all genres from

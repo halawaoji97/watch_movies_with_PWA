@@ -25,7 +25,6 @@ window.addEventListener('hashchange', () => {
 window.addEventListener('load', () => {
 	smoothScroll();
 	app.renderPage();
-	console.log(process.env.API_KEY);
 	// swRegister();
 });
 

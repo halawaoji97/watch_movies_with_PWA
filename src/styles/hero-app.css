@@ -1,8 +1,6 @@
 hero-app{
-    background-image: url('./images/hero-small.jpg');
+    background: url('./images/hero-small.jpg') center center/cover no-repeat;
     height: 400px;
-    background-position: center center;
-    background-size: cover;
     padding: 0 32px;
     display: flex;
     align-items: center;

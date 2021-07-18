@@ -52,7 +52,7 @@
 	hero-app {
 		padding: 0 64px;
 		height: 500px;
-		background-image: url('./images/hero-medium.jpg');
+		background: url('./images/hero-medium.jpg') center center/cover no-repeat;
 	}
 
 	hero-app h1 {
@@ -168,7 +168,7 @@
 @media screen and (min-width: 1000px){
 	hero-app {
 		height: 600px;
-		background-image: url('./images/hero-large.jpg');
+		background: url('./images/hero-large.jpg') center center/cover no-repeat;
 	}
 	.image-android img{
 		height: 500px;
