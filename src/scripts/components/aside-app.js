@@ -23,7 +23,7 @@ class AsideApp extends HTMLElement {
         <div class="image-android">
             <picture>
                 <source media="(max-width:900px)" srcset="./images/frame_handphone-medium.jpg">
-                <img src="./images/frame_handphone-large.jpg" alt="frame_handphone">
+                <img src="./images/frame_handphone.jpg" alt="frame_handphone">
             </picture>
         </div>
         `;
