@@ -30,7 +30,7 @@ fs.readdirSync(target).forEach((image) => {
 			),
 		);
 
-	// mengubah ukuran gambar dengan lebar 1800px, dengan prefix -extra-large.jpg
+	// mengubah ukuran gambar dengan lebar 900px, dengan prefix -extra-large.jpg
 	sharp(`${target}/${image}`)
 		.resize(1800)
 		.toFile(
