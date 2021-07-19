@@ -51,7 +51,7 @@ video-list{
     left: 0;
     bottom: 0;
     width: auto;
-    transition: transform .5s ease-in;
+    transition: transform .6s ease-in;
     transform: scale(0);
     opacity: 0;
 }
