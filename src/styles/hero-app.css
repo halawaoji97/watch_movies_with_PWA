@@ -1,5 +1,5 @@
 hero-app{
-    background: url('./images/hero-small.jpg') center center/cover no-repeat;
+    background: url('../../images/hero-small.jpg') center center/cover no-repeat;
     height: 400px;
     padding: 0 32px;
     display: flex;

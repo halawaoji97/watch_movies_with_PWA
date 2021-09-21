@@ -10,7 +10,7 @@ class ModalVideo extends HTMLElement {
         title=${this._video.name === null ? 'Noname' : this._video.name}
         width='100%'
         height='100%'
-        src=${`https://www.youtube.com/embed/${this._video.key}&append_to_response=videos`}>
+        src=${`https://www.youtube.com/embed/${this._video.key}`}>
         frameBorder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         allowFullScreen

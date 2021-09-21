@@ -64,6 +64,7 @@ const Detail = {
 			},
 		});
 
+		// eslint-disable-next-line no-unused-vars
 		const swiper = new Swiper('.swiper-container', {
 			// Optional parameters
 			slidesPerView: 1,
