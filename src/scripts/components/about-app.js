@@ -8,15 +8,12 @@ class AboutApp extends HTMLElement {
         <div class="text-about">
             <h2>About Watch Movies</h2>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In natus minus ipsa aut corrupti, alias iure. <br> Explicabo iste facere quis non similique error, officia perspiciatis odit recusandae possimus tempore velit.  <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, itaque!
+            This web application was built based on the API from <a class="tmdb" href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">TMDb</a>, </br> with the aim of not being commercial, but for personal use as learning material.  </br> This product uses the TMDB API but is not endorsed or certified by TMDB, </br> for more information please visit <a class="tmdb" href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">TMDb</a>.
             </p>
 
+            <h3>About Me</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat amet consequuntur soluta eum. <br> Ipsum ad ducimus sit rerum numquam quis?Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, quaerat.
-            </p>
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nemo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Voluptates explicabo esse, sit alias odit temporibus reiciendis consequuntur possimus assumenda ducimus?
+            I am a student who is still active at one of the Universities in Jakarta, </br> namely the University of Bina Sarana Informatics, majoring in information systems. </br> Currently my profession is not a programmer or the like, I'm still learning. </br> Features of this website, can be added to the homescreen, save favorite movies, play video previews and of course can be accessed offline. Thank you!
             </p>
         </div>
 

@@ -1,3 +1,4 @@
+/* eslint-disable implicit-arrow-linebreak */
 import { NetworkFirst, StaleWhileRevalidate, CacheFirst } from 'workbox-strategies';
 import { registerRoute } from 'workbox-routing';
 import { precacheAndRoute } from 'workbox-precaching';
@@ -68,7 +69,9 @@ registerRoute(
 // Cache the Google Fonts stylesheets with a stale-while-revalidate strategy.
 registerRoute(
 	({ url }) =>
-		url.origin === 'http://fonts.googleapis.com' || url.origin === 'https://fonts.gstatic.com',
+		url.origin === 'http://fonts.googleapis.com' ||
+		url.origin === 'https://fonts.gstatic.com' ||
+		url.origin === 'https://use.fontawesome.com',
 	new StaleWhileRevalidate({
 		cacheName: 'fonts',
 		plugins: [

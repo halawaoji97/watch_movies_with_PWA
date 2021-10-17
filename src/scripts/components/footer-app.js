@@ -11,7 +11,8 @@ class FooterApp extends HTMLElement {
             </a>
             <p class="brand-tagline">
                 Displaying movies of all genres from
-                <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">TMDB</a></p>
+                <a class="tmdb" href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">TMDb</a>.</p>
+                
         </div>
         <div class="support">
             <h6>Support</h6>
@@ -45,7 +46,8 @@ class FooterApp extends HTMLElement {
             <h6>Contact Us</h6>
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="https://www.instagram.com/halawa_oji" target="=_blank"
+                    rel="noopener noreferrer">
                     <i class="fab fa-instagram"></i>
                     </a>
                 </li>

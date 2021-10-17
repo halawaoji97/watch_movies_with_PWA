@@ -16,7 +16,7 @@ footer-app{
     color: #696D74;
 }
 
-.brand-tagline a{
+.brand-tagline a, .tmdb{
     font-size: 16px;
     color: #2bbbd1;
     font-weight: 500;
