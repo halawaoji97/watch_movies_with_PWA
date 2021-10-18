@@ -69,6 +69,12 @@ about-app{
     flex-direction: column;
     margin: 40px auto;
 }
+about-app h3{
+  margin-top: 30px;
+  color: #F4F2F5;
+  font-size: 24px;
+  font-weight: 500;
+}
 about-app p{
     line-height: 170%;
     color: #F4F2F5;

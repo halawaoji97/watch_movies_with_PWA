@@ -13,7 +13,7 @@ class AboutApp extends HTMLElement {
 
             <h3>About Me</h3>
             <p>
-            I am a student who is still active at one of the Universities in Jakarta, </br> namely the University of Bina Sarana Informatics, majoring in information systems. </br> Currently my profession is not a programmer or the like, I'm still learning. </br> Features of this website, can be added to the homescreen, save favorite movies, play video previews and of course can be accessed offline. Thank you!
+            I am a student who is still active at one of the Universities in Jakarta, </br> namely the University of Bina Sarana Informatics, majoring in information systems. </br> Currently my profession is not a programmer or the like, I'm still learning. </br> Features of this website, can be added to the homescreen, save favorite movies, </br> play video previews and of course can be accessed offline. Thank you!
             </p>
         </div>
 
